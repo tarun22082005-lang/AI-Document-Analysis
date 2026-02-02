@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Document Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>📄 AI Document Analyzer</h1>
+    <p>Upload a PDF to extract summary, keywords and sentiment.</p>
+
+    <input type="file" id="fileInput" accept=".pdf">
+
+    <button onclick="analyze()">Analyze Document</button>
+
+    <div id="loading" class="loading hidden">
+        ⏳ Analyzing document...
+    </div>
+
+    <div id="result" class="hidden">
+        <h2>Summary</h2>
+        <p id="summary"></p>
+
+        <h2>Keywords</h2>
+        <div id="keywords"></div>
+
+        <h2>Sentiment</h2>
+        <span id="sentiment"></span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

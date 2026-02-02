@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #020617;
+    padding: 40px;
+    width: 520px;
+    border-radius: 12px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.6);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    width: 100%;
+    margin: 20px 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.loading {
+    margin-top: 20px;
+    text-align: center;
+    color: #facc15;
+}
+
+.hidden {
+    display: none;
+}
+
+#result {
+    margin-top: 25px;
+}
+
+#keywords span {
+    background: #1e293b;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+}
+
+#sentiment {
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.Positive {
+    background: #16a34a;
+}
+
+.Negative {
+    background: #dc2626;
+}
+
+.Neutral {
+    background: #64748b;
+}
