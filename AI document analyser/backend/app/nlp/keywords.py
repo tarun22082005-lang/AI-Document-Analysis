@@ -18,3 +18,4 @@ def extract_keywords(text, top_k=10):
     except ValueError:
         return list(set(words))[:top_k]
 
+
